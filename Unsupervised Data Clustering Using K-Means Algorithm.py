@@ -5,7 +5,7 @@ from sklearn.cluster import KMeans
 from sklearn.datasets import make_blobs
 
 # Input : Generate synthetic data
-X, y = make_blobs(n_samples=300, centers=4, cluster_std=0.6, random_state=0)
+X, Y = make_blobs(n_samples=300, centers=4, cluster_std=0.6, random_state=0)
 
 # 2. Visualize the data
 plt.scatter(X[:, 0], X[:, 1], s=30, c='gray')
