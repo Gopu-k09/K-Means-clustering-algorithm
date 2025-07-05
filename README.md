@@ -1,1 +1,1 @@
-K - Means clusters algorithm ML
+K - Means Clusters algorithm ML
